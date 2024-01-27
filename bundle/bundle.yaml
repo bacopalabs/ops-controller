@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "bacopalabs-ops-controller"
 description: "CloudBees CI configuration bundle for the bacopalabs ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/bacopalabs/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
